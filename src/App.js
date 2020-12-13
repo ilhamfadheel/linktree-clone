@@ -40,7 +40,7 @@ function App() {
             <div className="Link">
               <div className="Link-container">
                 <ShoppingBag size='2em' color='darkorange'/>
-                <a href="https://wa.me/628998140989">Shopee</a>
+                <a href="https://shopee.co.id/aldmond22">Shopee</a>
               </div>                
             </div>
 
