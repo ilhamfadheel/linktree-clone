@@ -56,7 +56,7 @@ function App() {
             </div>
           </div>
           <div className="GitHub">
-            <a target="_blank" rel="noopener noreferrer" data-testid="SocialIcon" href="https://github.com/ilhamfadheel" aria-label="facebook" className="facebook social">
+            <a target="_blank" rel="noopener noreferrer" data-testid="SocialIcon" href="https://github.com/ilhamfadheel/linktree-clone" aria-label="github" className="github social">
               <Code size='2em' color="black" className="Icon"/>
             </a>
           </div>
