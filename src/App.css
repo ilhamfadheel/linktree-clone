@@ -100,9 +100,13 @@ h1 {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   border-radius: 8px;
+  display:flex;
 }
 .Link-container:hover{
   background-color:transparent;color:#FFFFFF;border-color:#FFFFFF;
+}
+.Link-container>svg{
+  height: auto;
 }
 .Link-container>a {
   font-family: 'Karla', sans-serif;
