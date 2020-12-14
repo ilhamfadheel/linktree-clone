@@ -19,7 +19,7 @@ function App() {
                 <img src={logo} alt="profile"></img>
               </div>
               <div className="Profile-username">
-                <h1>So Rude Shop</h1>
+                <h1>@ SoRudeShop</h1>
               </div>
             </div>
 
@@ -47,17 +47,17 @@ function App() {
             <div className="Socials">
               <div className="Social-links">
                 <a target="_blank" rel="noopener noreferrer" data-testid="SocialIcon" href="https://www.facebook.com/Sorudeshop/" aria-label="facebook" className="facebook social">
-                  <FacebookSquare size='2.8em' color="white" className="Icon"/>
+                  <FacebookSquare size='2.8em' color="lightblue" className="Icon" />
                 </a>
                 <a target="_blank" rel="noopener noreferrer" data-testid="SocialIcon" href="https://www.instagram.com/sorudeshop/" aria-label="facebook" className="instagram social">
-                  <InstagramAlt size='2.8em' color="white" className="Icon"/>
+                  <InstagramAlt size='2.8em' color="lightgrey" className="Icon"/>
                 </a>
               </div>
             </div>
           </div>
           <div className="GitHub">
             <a target="_blank" rel="noopener noreferrer" data-testid="SocialIcon" href="https://github.com/ilhamfadheel/linktree-clone" aria-label="github" className="github social">
-              <Code size='2em' color="black" className="Icon"/>
+              <Code size='2em' color="black"/>
             </a>
           </div>
         </div>
