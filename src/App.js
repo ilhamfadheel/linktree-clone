@@ -2,10 +2,10 @@
 import './App.css';
 import logo from './images/logo.png'
 import {FacebookSquare, InstagramAlt} from '@styled-icons/boxicons-logos/'
-import {Code} from '@styled-icons/entypo/'
-import {ShoppingCart} from '@styled-icons/foundation/'
+import {Code} from '@styled-icons/feather/'
 import {ShoppingBag} from '@styled-icons/material/'
 import {WhatsappSquare} from '@styled-icons/boxicons-logos/'
+import {Cart} from '@styled-icons/evil/'
 
 function App() {
   return (
@@ -13,19 +13,18 @@ function App() {
       <div className="Content">
         <div className="App-header">
           <div className="Body" >
-            <div className="Background-image"/>
             <div className="Profile">
               <div className="Profile-image">
                 <img src={logo} alt="profile"></img>
               </div>
               <div className="Profile-username">
-                <h1>@ SoRudeShop</h1>
+                <h1>@sorudeshop</h1>
               </div>
             </div>
 
             <div className="Link">
               <div className="Link-container">
-                <ShoppingCart size='2em' color="lightblue"/>
+                <Cart size='2em' color="black"/>
                 <a href="https://sorudeshop.com/">Website (Fast Order)</a>
               </div>
             </div>
@@ -47,10 +46,10 @@ function App() {
             <div className="Socials">
               <div className="Social-links">
                 <a target="_blank" rel="noopener noreferrer" data-testid="SocialIcon" href="https://www.facebook.com/Sorudeshop/" aria-label="facebook" className="facebook social">
-                  <FacebookSquare size='2.8em' color="lightblue" className="Icon" />
+                  <FacebookSquare size='2.8em' color="blue" className="Icon facebookIcon"/>
                 </a>
                 <a target="_blank" rel="noopener noreferrer" data-testid="SocialIcon" href="https://www.instagram.com/sorudeshop/" aria-label="facebook" className="instagram social">
-                  <InstagramAlt size='2.8em' color="lightgrey" className="Icon"/>
+                  <InstagramAlt size='2.8em' className="Icon instagramIcon"/>
                 </a>
               </div>
             </div>
